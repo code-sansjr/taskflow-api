@@ -21,6 +21,8 @@ O **TaskFlow** organiza projetos e tarefas de forma simples: cada usuário auten
 
 A API foi construída **sem framework** para demonstrar fundamentos de engenharia: roteamento, PDO, SQL, validação, JWT, separação de camadas e testes de integração contra um banco real.
 
+**Ecossistema:** esta API alimenta o [TaskFlow Dashboard](https://github.com/Ozzy0s/taskflow-dashboard), interface em React + Tailwind CSS que consome todos os endpoints.
+
 **Funcionalidades:**
 
 - Cadastro e login com senha protegida por `password_hash` e autenticação JWT
@@ -31,7 +33,7 @@ A API foi construída **sem framework** para demonstrar fundamentos de engenhari
 - Paginação padronizada em todas as listagens
 - Dashboard com totais, atrasadas, tarefas do dia e taxa de conclusão
 - Validação de entrada e respostas de erro consistentes
-- CORS configurável para o futuro front-end React
+- CORS configurável para integração com o [TaskFlow Dashboard](https://github.com/Ozzy0s/taskflow-dashboard)
 
 ## 🛠️ Stack
 
@@ -331,7 +333,7 @@ taskflow-api/
 
 ## 🗺️ Roadmap
 
-- [ ] Dashboard em React + Tailwind consumindo a API
+- [x] Dashboard em React + Tailwind consumindo a API — [TaskFlow Dashboard](https://github.com/Ozzy0s/taskflow-dashboard)
 - [ ] Deploy público com link no README
 - [ ] Documentação OpenAPI/Swagger
 - [ ] Docker Compose para desenvolvimento
@@ -359,6 +361,8 @@ Distribuído sob a licença MIT. Veja [LICENSE](LICENSE).
 **TaskFlow API** is a REST API for managing projects and tasks, built with plain PHP, PDO and MySQL. It includes JWT authentication, per-user data isolation, task filters, pagination, a dashboard summary, validation and 38 automated tests.
 
 **Highlights:** clean layer separation, prepared statements, `password_hash`, configurable bcrypt cost, consistent JSON errors and integration tests against a real MySQL database.
+
+**Front end:** [TaskFlow Dashboard](https://github.com/Ozzy0s/taskflow-dashboard) consumes every endpoint with React 19, Tailwind CSS 4 and TanStack Query.
 
 **Run it:** `composer install` → configure `.env` → `php bin/migrate.php` → `composer serve` → `composer test`.
 
