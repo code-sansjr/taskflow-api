@@ -1,5 +1,5 @@
 {
-    "name": "ozzy0s/taskflow-api",
+    "name": "code-sansjr/taskflow-api",
     "description": "API REST para gerenciamento de projetos e tarefas, construída com PHP puro, PDO, MySQL e JWT.",
     "type": "project",
     "license": "MIT",

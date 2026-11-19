@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Ozzy0s/taskflow-api/actions/workflows/tests.yml">
-    <img src="https://github.com/Ozzy0s/taskflow-api/actions/workflows/tests.yml/badge.svg" alt="Testes" />
+  <a href="https://github.com/code-sansjr/taskflow-api/actions/workflows/tests.yml">
+    <img src="https://github.com/code-sansjr/taskflow-api/actions/workflows/tests.yml/badge.svg" alt="Testes" />
   </a>
   <img src="https://img.shields.io/badge/PHP-8.4-777BB4?logo=php&logoColor=white" alt="PHP 8.4" />
   <img src="https://img.shields.io/badge/MySQL-8.4-4479A1?logo=mysql&logoColor=white" alt="MySQL 8.4" />
@@ -21,7 +21,7 @@ O **TaskFlow** organiza projetos e tarefas de forma simples: cada usuário auten
 
 A API foi construída **sem framework** para demonstrar fundamentos de engenharia: roteamento, PDO, SQL, validação, JWT, separação de camadas e testes de integração contra um banco real.
 
-**Ecossistema:** esta API alimenta o [TaskFlow Dashboard](https://github.com/Ozzy0s/taskflow-dashboard), interface em React + Tailwind CSS que consome todos os endpoints.
+**Ecossistema:** esta API alimenta o [TaskFlow Dashboard](https://github.com/code-sansjr/taskflow-dashboard), interface em React + Tailwind CSS que consome todos os endpoints.
 
 **Funcionalidades:**
 
@@ -33,7 +33,7 @@ A API foi construída **sem framework** para demonstrar fundamentos de engenhari
 - Paginação padronizada em todas as listagens
 - Dashboard com totais, atrasadas, tarefas do dia e taxa de conclusão
 - Validação de entrada e respostas de erro consistentes
-- CORS configurável para integração com o [TaskFlow Dashboard](https://github.com/Ozzy0s/taskflow-dashboard)
+- CORS configurável para integração com o [TaskFlow Dashboard](https://github.com/code-sansjr/taskflow-dashboard)
 
 ## 🛠️ Stack
 
@@ -144,7 +144,7 @@ Códigos usados: `200`, `201`, `204`, `401`, `404`, `405`, `422` e `500`.
 ### 1. Clone e instale
 
 ```bash
-git clone https://github.com/Ozzy0s/taskflow-api.git
+git clone https://github.com/code-sansjr/taskflow-api.git
 cd taskflow-api
 composer install
 ```
@@ -333,7 +333,7 @@ taskflow-api/
 
 ## 🗺️ Roadmap
 
-- [x] Dashboard em React + Tailwind consumindo a API — [TaskFlow Dashboard](https://github.com/Ozzy0s/taskflow-dashboard)
+- [x] Dashboard em React + Tailwind consumindo a API — [TaskFlow Dashboard](https://github.com/code-sansjr/taskflow-dashboard)
 - [ ] Deploy público com link no README
 - [ ] Documentação OpenAPI/Swagger
 - [ ] Docker Compose para desenvolvimento
@@ -349,7 +349,7 @@ Distribuído sob a licença MIT. Veja [LICENSE](LICENSE).
 
 **Sandro (Code.SansJr)**
 
-- GitHub: [@Ozzy0s](https://github.com/Ozzy0s)
+- GitHub: [@code-sansjr](https://github.com/code-sansjr)
 - E-mail: [jott4pb@gmail.com](mailto:jott4pb@gmail.com)
 - Instagram: [@code.sansjr](https://www.instagram.com/code.sansjr/)
 
@@ -362,7 +362,7 @@ Distribuído sob a licença MIT. Veja [LICENSE](LICENSE).
 
 **Highlights:** clean layer separation, prepared statements, `password_hash`, configurable bcrypt cost, consistent JSON errors and integration tests against a real MySQL database.
 
-**Front end:** [TaskFlow Dashboard](https://github.com/Ozzy0s/taskflow-dashboard) consumes every endpoint with React 19, Tailwind CSS 4 and TanStack Query.
+**Front end:** [TaskFlow Dashboard](https://github.com/code-sansjr/taskflow-dashboard) consumes every endpoint with React 19, Tailwind CSS 4 and TanStack Query.
 
 **Run it:** `composer install` → configure `.env` → `php bin/migrate.php` → `composer serve` → `composer test`.
 
